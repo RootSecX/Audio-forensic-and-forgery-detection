@@ -18,14 +18,29 @@
 
 <br/>
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
-[![Librosa](https://img.shields.io/badge/Librosa-0.10%2B-f97316?style=for-the-badge)](https://librosa.org/)
-[![SciPy](https://img.shields.io/badge/SciPy-1.7%2B-8b5cf6?style=for-the-badge&logo=scipy&logoColor=white)](https://scipy.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-1.20%2B-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-11557c?style=for-the-badge&logo=plotly&logoColor=white)](https://matplotlib.org/)
-[![Tests](https://img.shields.io/badge/Tests-Passing-2ea44f?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/RootSecX/audio-forensic-analyzer/actions)
-[![Status](https://img.shields.io/badge/Status-Active-10b981?style=for-the-badge)](https://github.com/YOUR_USERNAME/audio-forensic-analyzer)
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3.8+-111827?style=flat-square&logo=python&logoColor=FFD43B" />
+<img src="https://img.shields.io/badge/Librosa-Audio_Processing-111827?style=flat-square&logo=musicbrainz&logoColor=F97316" />
+<img src="https://img.shields.io/badge/SciPy-Signal_Analysis-111827?style=flat-square&logo=scipy&logoColor=A855F7" />
+<img src="https://img.shields.io/badge/NumPy-Numerical_Computing-111827?style=flat-square&logo=numpy&logoColor=38BDF8" />
+<img src="https://img.shields.io/badge/Matplotlib-Data_Visualization-111827?style=flat-square&logo=plotly&logoColor=F59E0B" />
+<img src="https://img.shields.io/badge/Machine_Learning-Enabled-111827?style=flat-square&logo=tensorflow&logoColor=FF6F00" />
+<img src="https://img.shields.io/badge/Audio-Forensics-111827?style=flat-square&logo=waveform&logoColor=06B6D4" />
+<img src="https://img.shields.io/badge/Spectrogram-Analysis-111827?style=flat-square&logo=audacity&logoColor=22C55E" />
+<img src="https://img.shields.io/badge/Noise-Detection-111827?style=flat-square&logo=googleanalytics&logoColor=F43F5E" />
+<img src="https://img.shields.io/badge/Deep_Learning-Ready-111827?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
+<img src="https://img.shields.io/badge/Research-Grade-111827?style=flat-square&logo=googlescholar&logoColor=60A5FA" />
+<img src="https://img.shields.io/badge/Open_Source-Community-111827?style=flat-square&logo=opensourceinitiative&logoColor=22C55E" />
+<img src="https://img.shields.io/badge/Linux-Compatible-111827?style=flat-square&logo=linux&logoColor=FCC624" />
+<img src="https://img.shields.io/badge/Cross_Platform-Supported-111827?style=flat-square&logo=windows&logoColor=38BDF8" />
+<img src="https://img.shields.io/badge/API-Modular-111827?style=flat-square&logo=fastapi&logoColor=10B981" />
+<img src="https://img.shields.io/badge/CLI-Powered-111827?style=flat-square&logo=gnubash&logoColor=ffffff" />
+<img src="https://img.shields.io/badge/License-MIT-111827?style=flat-square&logo=opensourceinitiative&logoColor=22C55E" />
+<img src="https://img.shields.io/badge/Build-Stable-111827?style=flat-square&logo=githubactions&logoColor=22C55E" />
+<img src="https://img.shields.io/badge/Status-Production_Ready-111827?style=flat-square&logo=vercel&logoColor=10B981" />
+
+</p>
 
 <br/>
 
