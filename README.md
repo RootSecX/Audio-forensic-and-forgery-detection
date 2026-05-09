@@ -63,35 +63,35 @@
 Audio Forensic Analyzer is a **research-grade toolkit** built to detect a wide spectrum of audio manipulation techniques. It combines classical signal processing with information-theoretic divergence measures and adaptive evasion detection — all packaged into a single Python script with zero complicated setup.
 
 ```
-                                                                 Input Audio (WAV)
-                                                                       │
-                                                                       ▼
-                                               ┌──────────────────────────────────────────────────────┐
-                                               │               FORENSIC ENGINE v2.0                   │
-                                               │                                                      │
-                                               │  ┌──────────┐  ┌──────────┐  ┌──────────┐            │
-                                               │  │ Splicing │  │ Morphing │  │  Noise   │            │
-                                               │  │  (GLR)   │  │  (KLD)   │  │ Injection│            │
-                                               │  └────┬─────┘  └────┬─────┘  └────┬─────┘            │
-                                               │       │             │             │                  │
-                                               │  ┌────┴─────┐  ┌────┴─────┐  ┌────┴─────┐            │
-                                               │  │ Compress │  │  Stegano │  │Watermark │            │
-                                               │  │  (STFT)  │  │  (LSB)   │  │ Integrity│            │
-                                               │  └────┬─────┘  └────┬─────┘  └────┬─────┘            │
-                                               │       └─────────────┴─────────────┘                  │
-                                               │                       │                              │
-                                               │              ┌────────┴────────┐                     │
-                                               │              │  Evasion Attack │                     │
-                                               │              │    Detector     │                     │
-                                               │              └────────┬────────┘                     │
-                                               │                       │                              │
-                                               │              ┌────────┴────────┐                     │
-                                               │              │  VERDICT ENGINE │                     │
-                                               │              └─────────────────┘                     │
-                                               └──────────────────────────────────────────────────────┘
-                                                      │                                       │
-                                                      ▼                                       ▼
-                                                Terminal Report                        HTML Dashboard 
+                                     Input Audio (WAV)
+                                           │
+                                           ▼
+                   ┌──────────────────────────────────────────────────────┐
+                   │               FORENSIC ENGINE v2.0                   │
+                   │                                                      │
+                   │  ┌──────────┐  ┌──────────┐  ┌──────────┐            │
+                   │  │ Splicing │  │ Morphing │  │  Noise   │            │
+                   │  │  (GLR)   │  │  (KLD)   │  │ Injection│            │
+                   │  └────┬─────┘  └────┬─────┘  └────┬─────┘            │
+                   │       │             │             │                  │
+                   │  ┌────┴─────┐  ┌────┴─────┐  ┌────┴─────┐            │
+                   │  │ Compress │  │  Stegano │  │Watermark │            │
+                   │  │  (STFT)  │  │  (LSB)   │  │ Integrity│            │
+                   │  └────┬─────┘  └────┬─────┘  └────┬─────┘            │
+                   │       └─────────────┴─────────────┘                  │
+                   │                       │                              │
+                   │              ┌────────┴────────┐                     │
+                   │              │  Evasion Attack │                     │
+                   │              │    Detector     │                     │
+                   │              └────────┬────────┘                     │
+                   │                       │                              │
+                   │              ┌────────┴────────┐                     │
+                   │              │  VERDICT ENGINE │                     │
+                   │              └─────────────────┘                     │
+                   └──────────────────────────────────────────────────────┘
+                          │                                       │
+                          ▼                                       ▼
+                    Terminal Report                        HTML Dashboard 
 
 ```
 
