@@ -1,0 +1,16 @@
+# ============================================================
+#  Audio Forensic Analyzer — Python Dependencies
+#  Install: pip install -r requirements.txt
+# ============================================================
+
+# ── Core Audio Processing ────────────────────────────────────
+librosa>=0.10.0          # Audio loading, STFT, LPC analysis
+soundfile>=0.12.0        # WAV read/write (backend for librosa)
+
+# ── Numerical & Scientific ───────────────────────────────────
+numpy>=1.21.0            # Array operations, signal math
+scipy>=1.7.0             # Statistical tests, signal filtering
+
+# ── Standard Library (no install needed) ────────────────────
+# json, argparse, logging, sys, os, time, dataclasses, datetime
+# typing — all included with Python 3.8+
