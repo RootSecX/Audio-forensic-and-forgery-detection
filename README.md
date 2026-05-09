@@ -340,10 +340,10 @@ audio-forensic-analyzer/
 ├── forensic.py              ← Entire engine: detection + reporting + dashboard
 ├── requirements.txt         ← Four dependencies only
 ├── LICENSE                  ← MIT
-├── README.md                ← This file
+├── README.md                ← Info
 │
 └── docs/
-    └── dashboard_preview.png   ← (Add after first run)
+    └── Sample_Dashboard_Preview.html   
 ```
 
 The project is intentionally **single-file** — `forensic.py` contains the detector classes, verdict engine, terminal reporter, and HTML dashboard generator. This maximizes portability: copy one file, install four packages, run.
