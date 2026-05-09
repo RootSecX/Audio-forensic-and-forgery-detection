@@ -421,7 +421,7 @@ If you use this tool in published research, please cite:
 
 ```bibtex
 @misc{audioforensic2026,
-  author    = {Muhammad Ahmaad},
+  author    = {Muhammad Ahmad},
   title     = {Advanced Audio Forensic Analyzer},
   year      = {2026},
   publisher = {GitHub},
