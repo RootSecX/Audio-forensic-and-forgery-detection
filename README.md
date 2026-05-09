@@ -132,7 +132,7 @@ pip     (any recent version)
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/audio-forensic-analyzer.git
+git clone https://github.com/RootSecX/audio-forensic-analyzer.git
 cd audio-forensic-analyzer
 
 # 2. Install dependencies
