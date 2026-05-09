@@ -19,10 +19,13 @@
 <br/>
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
 [![Librosa](https://img.shields.io/badge/Librosa-0.10%2B-f97316?style=for-the-badge)](https://librosa.org/)
-[![SciPy](https://img.shields.io/badge/SciPy-1.7%2B-8b5cf6?style=for-the-badge)](https://scipy.org/)
-[![Status](https://img.shields.io/badge/Status-Active-10b981?style=for-the-badge)]()
+[![SciPy](https://img.shields.io/badge/SciPy-1.7%2B-8b5cf6?style=for-the-badge&logo=scipy&logoColor=white)](https://scipy.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.20%2B-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-11557c?style=for-the-badge&logo=plotly&logoColor=white)](https://matplotlib.org/)
+[![Tests](https://img.shields.io/badge/Tests-Passing-2ea44f?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/RootSecX/audio-forensic-analyzer/actions)
+[![Status](https://img.shields.io/badge/Status-Active-10b981?style=for-the-badge)](https://github.com/YOUR_USERNAME/audio-forensic-analyzer)
 
 <br/>
 
@@ -60,35 +63,36 @@
 Audio Forensic Analyzer is a **research-grade toolkit** built to detect a wide spectrum of audio manipulation techniques. It combines classical signal processing with information-theoretic divergence measures and adaptive evasion detection — all packaged into a single Python script with zero complicated setup.
 
 ```
-Input Audio (WAV)
-       │
-       ▼
-┌──────────────────────────────────────────────────────┐
-│               FORENSIC ENGINE v2.0                   │
-│                                                      │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐            │
-│  │ Splicing │  │ Morphing │  │  Noise   │            │
-│  │  (GLR)   │  │  (KLD)   │  │ Injection│            │
-│  └────┬─────┘  └────┬─────┘  └────┬─────┘            │
-│       │             │             │                  │
-│  ┌────┴─────┐  ┌────┴─────┐  ┌────┴─────┐            │
-│  │ Compress │  │  Stegano │  │Watermark │            │
-│  │  (STFT)  │  │  (LSB)   │  │ Integrity│            │
-│  └────┬─────┘  └────┬─────┘  └────┬─────┘            │
-│       └─────────────┴─────────────┘                  │
-│                       │                              │
-│              ┌────────┴────────┐                     │
-│              │  Evasion Attack │                     │
-│              │    Detector     │                     │
-│              └────────┬────────┘                     │
-│                       │                              │
-│              ┌────────┴────────┐                     │
-│              │  VERDICT ENGINE │                     │
-│              └─────────────────┘                     │
-└──────────────────────────────────────────────────────┘
-       │                                       │
-       ▼                                       ▼
- Terminal Report                        HTML Dashboard 
+                                                                 Input Audio (WAV)
+                                                                       │
+                                                                       ▼
+                                               ┌──────────────────────────────────────────────────────┐
+                                               │               FORENSIC ENGINE v2.0                   │
+                                               │                                                      │
+                                               │  ┌──────────┐  ┌──────────┐  ┌──────────┐            │
+                                               │  │ Splicing │  │ Morphing │  │  Noise   │            │
+                                               │  │  (GLR)   │  │  (KLD)   │  │ Injection│            │
+                                               │  └────┬─────┘  └────┬─────┘  └────┬─────┘            │
+                                               │       │             │             │                  │
+                                               │  ┌────┴─────┐  ┌────┴─────┐  ┌────┴─────┐            │
+                                               │  │ Compress │  │  Stegano │  │Watermark │            │
+                                               │  │  (STFT)  │  │  (LSB)   │  │ Integrity│            │
+                                               │  └────┬─────┘  └────┬─────┘  └────┬─────┘            │
+                                               │       └─────────────┴─────────────┘                  │
+                                               │                       │                              │
+                                               │              ┌────────┴────────┐                     │
+                                               │              │  Evasion Attack │                     │
+                                               │              │    Detector     │                     │
+                                               │              └────────┬────────┘                     │
+                                               │                       │                              │
+                                               │              ┌────────┴────────┐                     │
+                                               │              │  VERDICT ENGINE │                     │
+                                               │              └─────────────────┘                     │
+                                               └──────────────────────────────────────────────────────┘
+                                                      │                                       │
+                                                      ▼                                       ▼
+                                                Terminal Report                        HTML Dashboard 
+
 ```
 
 <br/>
