@@ -66,17 +66,17 @@ Input Audio (WAV)
 ┌──────────────────────────────────────────────────────┐
 │               FORENSIC ENGINE v2.0                   │
 │                                                      │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐           │
-│  │ Splicing │  │ Morphing │  │  Noise   │           │
-│  │  (GLR)   │  │  (KLD)   │  │ Injection│           │
-│  └────┬─────┘  └────┬─────┘  └────┬─────┘           │
-│       │              │              │                 │
-│  ┌────┴─────┐  ┌────┴─────┐  ┌────┴─────┐           │
-│  │ Compress │  │  Stegano │  │Watermark │           │
-│  │  (STFT)  │  │  (LSB)   │  │ Integrity│           │
-│  └────┬─────┘  └────┬─────┘  └────┬─────┘           │
-│       └──────────────┴─────────────┘                 │
-│                      │                               │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐            │
+│  │ Splicing │  │ Morphing │  │  Noise   │            │
+│  │  (GLR)   │  │  (KLD)   │  │ Injection│            │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘            │
+│       │             │             │                  │
+│  ┌────┴─────┐  ┌────┴─────┐  ┌────┴─────┐            │
+│  │ Compress │  │  Stegano │  │Watermark │            │
+│  │  (STFT)  │  │  (LSB)   │  │ Integrity│            │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘            │
+│       └─────────────┴─────────────┘                  │
+│                       │                              │
 │              ┌────────┴────────┐                     │
 │              │  Evasion Attack │                     │
 │              │    Detector     │                     │
@@ -86,9 +86,9 @@ Input Audio (WAV)
 │              │  VERDICT ENGINE │                     │
 │              └─────────────────┘                     │
 └──────────────────────────────────────────────────────┘
-       │                    │
-       ▼                    ▼
- Terminal Report       HTML Dashboard
+       │                                       │
+       ▼                                       ▼
+ Terminal Report                        HTML Dashboard 
 ```
 
 <br/>
@@ -416,7 +416,7 @@ Distributed under the **MIT License** — see [`LICENSE`](LICENSE) for full term
 If you use this tool in published research, please cite:
 
 ```bibtex
-@misc{audioforensic2025,
+@misc{audioforensic2026,
   author    = {Muhammad Ahmaad},
   title     = {Advanced Audio Forensic Analyzer},
   year      = {2026},
